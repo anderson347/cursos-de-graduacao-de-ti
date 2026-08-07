@@ -200,12 +200,19 @@ section li div {
 .container .curso {
     color: var(--texto-dark-theme);
     font-size: var(--nome-curso);
+    justify-content: center;
+    justify-items: center;
     width: 100%;
 }
 
 .container .curso div {
     background-color: var(--destaque);
+    align-content: center;
     text-align: center;
+    min-height: 3rem;
+    width: 100%;
+    max-width: 450px;
+    padding-block: 0;
     border-radius: 12px;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.418);
 }

@@ -110,21 +110,17 @@ section {
 h1#nome-curso {
     font-size: var(--nome-curso-h1);
     text-align: center;
+    padding-top: 1rem;
 }
 
 section ul {
     list-style: none;
     display: grid;
-    grid-template-columns: 140px 150px 130px;
+    grid-template-columns: repeat(3, 150px);
     grid-auto-flow: row;
-    align-content: center;
-    align-items: center;
     justify-content: center;
     justify-items: center;
-}
-
-section li {
-    text-align: center;
+    align-items: start;
 }
 
 @media screen and (max-width: 480px) {
@@ -133,7 +129,8 @@ section li {
         grid-template-areas:
             "modalidade modalidade"
             "tipo duracao";
-        gap: 15px;
+        gap: 8px;
+        font-size: 0.9rem;
     }
     #tipo {
         grid-area: tipo;
@@ -144,6 +141,20 @@ section li {
     #duracao {
         grid-area: duracao;
     }
+}
+
+section li span {
+    display: block;
+    text-indent: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+section li div {
+    display: block;
+    text-align: center;
+    padding: 0;
+    text-indent: 0;
 }
 
 /* Article */

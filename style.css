@@ -1,7 +1,6 @@
 :root {
     /* Cores */
     --fundo: #f0efe7;
-    --fundo-section: #FCFCFD;
     --fundo-article: #FFFDFD;
     --texto: #222222;
     --texto-dark-theme: #ffffff;
@@ -97,7 +96,7 @@ main {
 }
 
 section {
-    background-color: var(--fundo-section);
+    background-color: var(--fundo-article);
     grid-column: 2 / 3;
     display: flex;
     flex-direction: column;

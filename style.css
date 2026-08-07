@@ -252,7 +252,7 @@ section li {
     list-style-position: inherit;
     text-align: justify;
     padding-inline: inherit;
-    line-height: 1.1rem;
+    column-gap: 1;
 }
 
 #referencias li {

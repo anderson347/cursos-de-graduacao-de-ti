@@ -74,8 +74,8 @@ header button {
     color: var(--texto);
     font-size: 0.9rem;
     font-weight: 600;
-    width: var(--header-height);
-    height: var(--header-height);
+    width: calc(var(--header-height) - 2px);
+    height: calc(var(--header-height) - 2px);
     border: none;
     border-radius: 10px;
     cursor: pointer;

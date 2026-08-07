@@ -182,7 +182,7 @@ section li div {
 .container #menu-cursos {
     background-color: var(--fundo);
     grid-column: 2 / 3;
-    height: calc(100vh - (var(--header-height) + var(--footer-height) + 1.5rem));
+    height: calc(100vh - (var(--header-height) + var(--footer-height) + 2rem));
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -286,4 +286,9 @@ footer {
     grid-row: -2;
     width: 100%;
     height: var(--footer-height);
+}
+
+footer span {
+    display: block;
+    padding-bottom: 0.5rem;
 }
